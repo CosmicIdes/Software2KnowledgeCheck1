@@ -3,6 +3,9 @@ namespace Software2KnowledgeCheck1
 {
 	public class CreateMulti<T>
 	{
+
+        public List<T> Buildings { get; } = new List<T>();
+
         public void CreateMultifloor(T multi)
         {
             // Get materials
