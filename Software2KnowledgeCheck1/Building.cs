@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Software2KnowledgeCheck1
 {
-    internal class Building
+    public class Building
     {
         public string Street { get; set; }
 
